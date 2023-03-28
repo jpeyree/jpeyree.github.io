@@ -1,0 +1,30 @@
+body{
+    background-color:darkgrey;
+}
+
+.nav{
+    list-style-type: none;
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.nav li{
+    float: left;
+}
+
+ul.nav li a{
+    display:block;
+    padding: 8px 16px;
+    color:black;
+    text-decoration: none;
+}
+
+ul.nav a:hover{
+    background-color:hotpink;
+}
+
+.active {
+    background-color:beige;
+}

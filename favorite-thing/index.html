@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite School Thing</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
         p{
             text-align: center;
@@ -26,9 +27,35 @@
             width:60%;
             filter:drop-shadow(20px 20px 10px aquamarine);
         }
+        #square{
+            width: 300px;
+            height: 300px;
+            background-color: teal;
+            margin: auto;
+            position: relative;
+            left: 1000px;          
+            rotate: -45deg;
+            animation: rotate 3s infinite alternate ease-in-out, slide 1s forwards ease-in-out;
+        }
+        @keyframes rotate {
+            to {
+                rotate: 45deg;
+            }
+        }
+        @keyframes slide {
+            to {
+                left: 0;
+            }
+        }
     </style>
 </head>
 <body>
+    <ul class="nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Me</a></li>
+    </ul>
+
     <h1 style="color:rgba(92, 29, 219, 0.984);background-color: lemonchiffon; text-align:center; font-size:35px;">Sports!</h1>
     <h2 class="purple">are my favorite thing about school</h2>
     <hr>
@@ -42,5 +69,6 @@
     <p style="font-size:26px;"><a href="https://www.eastsideprep.org/athletics/">Eatside Prep Athletics</a></p><br>
     <br>
     <img src="Image/download.jpg" alt="Various sports balls" class="centered-img"><br>
+    <div id="square"></div>
     <hr>
 </body>
