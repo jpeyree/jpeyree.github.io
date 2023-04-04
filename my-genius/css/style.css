@@ -29,8 +29,40 @@ body{
 h1{
     color:midnightblue;
     font-size: 50px;
+    font-family: "owners", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 h2{
     font-size: 25px;
     color: darkslateblue;
+    font-family: "owners", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+p{
+    font-family: "owners-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+}
+ol{
+    font-family: "owners-wide", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+a{
+    font-family: "owners-wide", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h3{
+    font-family: "owners-xxwide", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+ul{
+    font-family: "owners-xxwide", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
