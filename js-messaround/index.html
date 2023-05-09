@@ -20,7 +20,7 @@
     <h2>How do we change an image with javascript?</h2>
     <img src="images/pic_bulboff.gif.gif" alt="light bulb off" id="myImage"; >
     <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif.gif'">Bulb on</button>
-    <button>Bulb off</button>
+    <button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif.gif'">Bulb off</button>
     <hr>
     <h2>How do we change css styles with a button?</h2>
     <p id="alice">Hi. I am Alice.</p>
@@ -43,9 +43,14 @@
             }
         }
     </script>
+    <hr>
     <p id="rainbow">Rainbows</p>
     <button onclick="document.getElementById('rainbow').style.backgroundColor='lightblue'">Blue</button>
     <button onclick="document.getElementById('rainbow').style.backgroundColor='purple'">Purple</button>
     <button onclick="document.getElementById('rainbow').style.backgroundColor='pink'">Pink</button>
+    <p id="moving">Click buttons to move text</p>
+    <button onclick="document.getElementById('moving').style.textAlign='left'"><<</button>
+    <button onclick="document.getElementById('moving').style.textAlign='center'">Middle</button>
+    <button onclick="document.getElementById('moving').style.textAlign='right'">>></button>
 </body>
 </html>
