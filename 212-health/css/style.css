@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+.grid-item{
+    text-align:left;
+    font-size:20px;
+    padding:20px;
+}
+.nav{
+    list-style-type: none;
+    background-color:darkgrey;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.nav li{
+    float: left;
+}
+
+ul.nav li a{
+    display:block;
+    padding: 8px 16px;
+    color:black;
+    text-decoration: none;
+}
+
+ul.nav a:hover{
+    background-color:rgb(108, 203, 224);
+}
+.act {
+    background-color:rgb(160,12,12);
+}
+.welcome1{
+    grid-row:1;
+    grid-column:1;
+}
+.welcomepic1{
+    grid-row:1;
+    grid-column:2;
+}
+.welcomepic2{
+    grid-row:2;
+    grid-column:1;
+}
+.welcome2{
+    grid-row:2;
+    grid-column:2;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-gap: 10px;
+}
+.social{
+    grid-row:1;
+    grid-column:2;
+}
+.grid-item2{
+    text-align:center;
+    font-size:20px;
+    padding:20px;
+}
+.follow{
+    grid-row:2;
+    grid-column:2;
+    background-color: rgb(108, 203, 224);
+    color:black;
+}
+.contact{
+    grid-row:5;
+    grid-column:2;
+}
+.posts{
+    grid-row:6;
+    grid-column:1;
+}
+.followers{
+    grid-row:6;
+    grid-column:2;
+}
+.following{
+    grid-row:6;
+    grid-column:3;
+}
+h1{
+    font-family: "roc-grotesk-wide", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:rgb(160,12,12);
+}
+h3{
+    font-family: "roc-grotesk-wide", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:rgb(160,12,12);
+}
+p{
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:rgb(43,43,43);
+}
+a{
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.weightimg{
+    grid-row: 1 / span 2;
+    grid-column: 1;
+}
+.groupimg{
+    grid-row: 1 / span 2;
+    grid-column: 3;
+}
+
+.post1{
+    grid-row:3;
+    grid-column:1;
+}
+.post2{
+    grid-row:3;
+    grid-column:2;
+}
+.post3{
+    grid-row:3;
+    grid-column:3;
+}
+.post4{
+    grid-row:4;
+    grid-column:1;
+}
+.post5{
+    grid-row:4;
+    grid-column:2;
+}
+.post6{
+    grid-row:4;
+    grid-column:3;
+}
