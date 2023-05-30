@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wbx2syk.css">
 </head>
 <body>
-    <div class="logo" style="text-align:center;"><img src="images/logo.png" alt="212 logo"></div>
+    <div class="logo" style="text-align:center;"><img src="images/logo.png" alt="212 logo" width="380"></div>
     <ul class="nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="our-vision.html">Our Vision</a></li>
@@ -16,20 +17,39 @@
         <li><a href="pricing.html">Pricing</a></li>
     </ul>
     <div class="grid-container4">
-        <div class="grid-item talk" style="text-align:center;">
+        <div class="grid-item3 talk" style="text-align:center;">
             <h1>Let's Talk</h1>
         </div>
         <div class="grid-item3 food">
             <img src="images/food.jpg" alt="aesthetic sandwiches" width="580">
         </div>
-        <div class="grid-item3 contac">
+        <div class="grid-item3 contacting">
             <h3>Contact</h3>
-            <p>​212 Health & Fitness LLC.
-                ​2558 76th Ave. SE 138
-                Mercer Island, WA. 98004
-                healingworks206@gmail.com
+            <p>​212 Health & Fitness LLC. <br><br>
+                ​2558 76th Ave. SE 138 <br><br>
+                Mercer Island, WA. 98004 <br><br>
+                healingworks206@gmail.com <br><br>
                 Jason@212health.com</p>
         </div>
+        <hr>
+        <div class="grid-item3 email" style="text-align:center;">
+            <h3>Send us an email!</h3>
+        </div>
+        <div class="grid-item3 copy">
+            <p>Fill out the form below and copy and paste result into an email to healingworks206@gmail.com or jason@212health.com</p>
+        </div>
+        <form action="" id="email-form" class="grid-item3 form">
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name"><br>
+            <label for="message">Message:</label><br>
+            <input type="text" name="message" id="message"><br>
+            <label for="number">Phone Number:</label><br>
+            <input type="text" name="number" id="number"><br>
+        </form>
+        <br>
+        <input type="button" value="SUMBIT" onclick="send()" class="grid-item3 submit"><br>
+        <p id="send" class="grid-item3 message">Hello!</p>
     </div>
+    <script src="js/game.js"></script>
 </body>
 </html>
