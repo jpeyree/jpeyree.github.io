@@ -192,3 +192,25 @@ a{
     grid-row:5;
     grid-column:2;
 }
+.gridcontainer4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+.grid-item3{
+    text-align:left;
+    font-size:20px;
+    padding:20px;
+}
+.talk{
+    grid-row:1;
+    grid-column:1 / span 2;
+}
+.food{
+    grid-row:2;
+    grid-column:1;
+}
+.contac{
+    grid-row:2;
+    grid-column:2;
+}
