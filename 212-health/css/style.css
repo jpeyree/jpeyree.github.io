@@ -252,4 +252,75 @@ a{
 .group-pricing{
     grid-row:2;
     grid-column: 2 / span 2;
+    background-color: lightblue;
+}
+.single{
+    grid-row:3;
+    grid-column:1;
+}
+.grp4pack{
+    grid-row:3;
+    grid-column:2;
+}
+.grp8pack{
+    grid-row:3;
+    grid-column:3;
+}
+.grp12pack{
+    grid-row:3;
+    grid-column:4;
+}
+.personal-pricing{
+    grid-row:4;
+    grid-column:2 / span 2;
+    background-color: lightblue;
+}
+.prsnlsingle{
+    grid-row:5;
+    grid-column:1;
+}
+.prsnl4pack{
+    grid-row:5;
+    grid-column:2;
+}
+.prsnl8pack{
+    grid-row:5;
+    grid-column:3;
+}
+.prsnl12pack{
+    grid-row:5;
+    grid-column:4;
+}
+.grid-container6{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-gap: 10px;
+}
+.gallery{
+    grid-row:1;
+    grid-column:1 / span 3;
+}
+.gallery1{
+    grid-row:2;
+    grid-column:1;
+}
+.gallery2{
+    grid-row:2;
+    grid-column:2;
+}
+.gallery3{
+    grid-row:2;
+    grid-column:3;
+}
+.gallery4{
+    grid-row:3;
+    grid-column:1;
+}
+.gallery5{
+    grid-row:3;
+    grid-column:2;
+}
+.gallery6{
+    grid-row:3;
+    grid-column:3;
 }
